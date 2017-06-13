@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import About from '@/components/About'
-import Users from '@/components/Users'
+import Coins from '@/components/Coins.vue'
 
 Vue.use(Router)
 
@@ -19,9 +19,9 @@ export default new Router({
       component: About
     },
     {
-      path: '/users/:id',
-      name: 'Users',
-      component: Users
+      path: '/coins/:id',
+      name: 'Coins',
+      component: Coins
     }
   ]
 })
